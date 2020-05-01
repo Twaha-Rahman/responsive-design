@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -6;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(241, 233, 7, 0.7);
+}
+
+.bg-img {
+    z-index: -5;
+    
+    filter: blur(2.5px);
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.content-body {
+    text-align: center;
+    color: #fff;
+    z-index: 10px;
+}
+
+#survey-form {
+    margin: auto 2.5rem auto 2.5rem;
+    background: rgba(88, 53, 53, 0.938);
+}
